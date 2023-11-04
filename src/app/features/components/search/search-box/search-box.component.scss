@@ -1,0 +1,15 @@
+section {
+    article {
+        margin: 10px 25px;
+        label {
+            padding-right: 6px;
+        }
+        input {
+            padding-left: 10px;
+            margin-right: 5px;
+            font-size: 18px;
+            height: 26px;
+            width: calc(100% - 135px);
+        }
+    }
+}

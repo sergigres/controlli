@@ -1,0 +1,17 @@
+<section>
+    <span>Filter</span>
+    <form class="example-form" (ngSubmit)="onSubmit()">
+        <mat-form-field class="text">
+            <input type="tel" matInput placeholder="Title" name= "search" [(ngModel)]= "movie.Title">
+        </mat-form-field>
+        <mat-form-field class="genre">
+            <input type="tel" matInput placeholder="Genre" name= "search" [(ngModel)]= "movie.Type">
+        </mat-form-field>
+        <mat-form-field class="year">
+            <input type="tel" matInput placeholder="Year" name= "search" [(ngModel)]= "movie.Year">
+        </mat-form-field>
+        <button mat-button type="submit" color="primary">
+            <mat-icon type="submit">search</mat-icon>
+        </button>
+    </form>
+</section>

@@ -1,0 +1,6 @@
+<h2 *ngIf="data.length">Results</h2>
+<section>
+  <article *ngFor="let movie of data">
+    <app-movie-card [movie]="movie"></app-movie-card>
+  </article>
+</section>

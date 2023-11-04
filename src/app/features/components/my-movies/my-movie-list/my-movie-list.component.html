@@ -1,0 +1,6 @@
+<h2 *ngIf="data.length">Results</h2>
+<section>
+  <article *ngFor="let movie of favorites">
+    <app-movie-card [movie]="movie" (onDelete)="refresh()" [isFavorite]="true"></app-movie-card>
+  </article>
+</section>

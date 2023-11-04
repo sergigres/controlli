@@ -1,0 +1,12 @@
+<section role="main">
+    <article>
+        <form [formGroup]="searchForm" (ngSubmit)="onSubmit()">
+        <input type="text" class="form-control" formControlName="query" aria-describedby="search-text" 
+          placeholder="Search for a movie" (keyup)="onKeyUp()" autofocus>
+          <button mat-button type="submit" color="primary">
+            <mat-icon type="submit">search</mat-icon>
+            Search
+          </button>
+      </form>
+    </article>
+</section>

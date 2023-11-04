@@ -1,0 +1,19 @@
+header {
+
+  background-color: aliceblue;
+  height: 140px;
+
+  nav {
+    padding-top: 10px;
+    ul {
+      display: flex;
+      list-style-type: none;
+      li {
+        margin-right: 12px;
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+};

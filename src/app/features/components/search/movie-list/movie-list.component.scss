@@ -1,0 +1,17 @@
+h2 {
+    margin-left: 25px;
+}
+
+section {    
+    display: flex;
+    flex-wrap: wrap;
+
+    article {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        position: relative;
+        width:330px;
+        height: 340px;
+    }
+}

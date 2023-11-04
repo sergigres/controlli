@@ -1,0 +1,30 @@
+section {
+    margin: 0 10px;
+
+    span {
+        margin-left: 30px;
+    }
+
+    form {
+        display: flex;
+        mat-form-field {
+            margin: 0 7px;
+            &.text {
+                width: 52%;
+            }
+            &.genre {
+                width: 22%;
+            }
+            &.year {
+                width: 18%;
+            }
+        }
+    
+        button {
+            border: none;
+            height: 56px;
+            width: 45px;
+        }
+    }
+
+}
